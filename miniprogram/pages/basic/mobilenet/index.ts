@@ -95,7 +95,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 图像分类'
+      title: 'AI_CG - 图像分类'
     };
   }
 });

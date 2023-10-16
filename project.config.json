@@ -1,5 +1,5 @@
 {
-  "description": "AI Pocket",
+  "description": "AI_CG",
   "packOptions": {
     "ignore": [],
     "include": []
@@ -8,7 +8,7 @@
   "cloudfunctionRoot": "cloudfunctions/",
   "compileType": "miniprogram",
   "libVersion": "2.19.6",
-  "projectname": "AI%20Pocket",
+  "projectname": "AI-CG",
   "setting": {
     "urlCheck": false,
     "es6": true,

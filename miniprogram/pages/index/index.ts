@@ -17,13 +17,18 @@ Page({
         title: '初识 AI',
         img: 'https://ai.flypot.cn/mp/ai-pocket/images/index-teach-bg.jpg',
         url: '/pages/game/teachable-machine/index'
+      },
+      {
+        title: '数字人',
+        img: 'https://ai.flypot.cn/mp/ai-pocket/images/index-teach-bg.jpg',
+        url: '/pages/render/teachable-machine/index'
       }
     ]
   },
 
   onShareAppMessage() {
     return {
-      title: 'AI Pocket - 口袋里的 AI'
+      title: 'AI_CG - 口袋里的 AI'
     }
   },
  

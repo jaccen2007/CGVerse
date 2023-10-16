@@ -198,7 +198,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 目标追踪'
+      title: 'AI_CG - 目标追踪'
     }
   }
 })

@@ -68,10 +68,10 @@ Page({
     return numStr;
   },
 
-  showQrcode: function () {
-    wx.previewImage({
-      urls: ['https://ai.flypot.cn/mp/ai-pocket/images/zan-code.jpg'],
-      current: 'https://ai.flypot.cn/mp/ai-pocket/images/zan-code.jpg' // 当前显示图片的http链接      
-    });
-  }
+  // showQrcode: function () {
+  //   wx.previewImage({
+  //     urls: ['https://ai.flypot.cn/mp/ai-pocket/images/zan-code.jpg'],
+  //     current: 'https://ai.flypot.cn/mp/ai-pocket/images/zan-code.jpg' // 当前显示图片的http链接      
+  //   });
+  // }
 })

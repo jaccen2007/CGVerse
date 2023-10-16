@@ -2,9 +2,9 @@
 <scroll-view scroll-y class="scrollPage">
   <view class="UCenter-bg">
     <image src="/images/logo.png" class="png" mode="widthFix"></image>
-    <view class="text-xl">AI Pocket</view>
+    <view class="text-xl">AI_CG</view>
     <view class="margin-top-sm">
-      <text>By HunterXuan</text>
+      <text>By Jaccen</text>
     </view>
     <image src='https://ai.flypot.cn/mp/ai-pocket/images/wave.gif' mode='scaleToFill' class='gif-wave'></image>
   </view>
@@ -38,22 +38,11 @@
         <text class="text-grey">更新日志</text>
       </navigator>
     </view>
-    <view class="cu-item arrow">
-      <view class="content" bindtap="showQrcode">
-        <text class="cuIcon-appreciatefill text-red"></text>
-        <text class="text-grey">赞赏支持</text>
-      </view>
-    </view>
+
     <view class="cu-item arrow">
       <button class="cu-btn content" open-type="feedback">
         <text class="cuIcon-writefill text-cyan"></text>
         <text class="text-grey">意见反馈</text>
-      </button>
-    </view>
-    <view class="cu-item arrow">
-      <button class="cu-btn content" open-type="contact">
-        <text class="cuIcon-message text-brown"></text>
-        <text class="text-grey">联系作者</text>
       </button>
     </view>
   </view>

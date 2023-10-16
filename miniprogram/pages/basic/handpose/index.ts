@@ -100,7 +100,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 手势识别'
+      title: 'AI_CG - 手势识别'
     }
   }
 })

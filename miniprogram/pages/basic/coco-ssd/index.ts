@@ -90,7 +90,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 通用物体检测'
+      title: 'AI_CG - 通用物体检测'
     }
   }
 })

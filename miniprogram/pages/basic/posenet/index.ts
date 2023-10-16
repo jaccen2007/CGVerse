@@ -100,7 +100,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 身体部位识别'
+      title: 'AI_CG - 身体部位识别'
     }
   }
 })

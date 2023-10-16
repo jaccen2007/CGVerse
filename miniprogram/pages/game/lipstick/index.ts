@@ -132,7 +132,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 口红试色'
+      title: 'AI_CG - 口红试色'
     }
   },
 

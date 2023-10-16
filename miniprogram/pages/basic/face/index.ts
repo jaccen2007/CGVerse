@@ -100,7 +100,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 面部特征'
+      title: 'AI_CG - 面部特征'
     }
   }
 })

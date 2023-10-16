@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/render/index",
     "pages/basic/home/index",
     "pages/basic/posenet/index",
     "pages/basic/body-pix/index",

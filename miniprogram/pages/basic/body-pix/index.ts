@@ -107,7 +107,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 人像分割'
+      title: 'AI_CG - 人像分割'
     }
   }
 })

@@ -173,7 +173,7 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: 'AI Pocket - 初识 AI'
+      title: 'AI_CG - 初识 AI'
     };
   }
 })
