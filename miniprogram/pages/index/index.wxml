@@ -10,11 +10,5 @@
     <view class="cu-item">
       <ad unit-id="adunit-ecd835a5ec9df5c1"></ad>
     </view>
-
-    <view class="cu-item bg-img shadow-blur" style="background-image:url(https://ai.flypot.cn/mp/ai-pocket/images/index-coupon-bg.jpg)" bindtap="goToCoupon">
-      <view class="cardTitle">
-        外卖大红包
-      </view>
-    </view>
   </view>
 </scroll-view>
