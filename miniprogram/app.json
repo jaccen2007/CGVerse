@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/render/index",
+    "pages/render/teachable-machine/index",
     "pages/basic/home/index",
     "pages/basic/posenet/index",
     "pages/basic/body-pix/index",
