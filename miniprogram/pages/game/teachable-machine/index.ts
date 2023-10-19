@@ -1,7 +1,7 @@
 // pages/game/teachable-machine/index.ts
 const app = getApp<IAppOption>();
 
-import * as model from '../../../models/teachable-machine/model';
+import * as model from './teachable-machine/model';
 
 Page({
 

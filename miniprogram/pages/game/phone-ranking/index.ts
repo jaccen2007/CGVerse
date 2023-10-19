@@ -2,7 +2,7 @@
 const app = getApp<IAppOption>();
 
 import { isTypedArray } from '@tensorflow/tfjs-core/dist/util';
-import * as model from '../../../models/mobilenet/model';
+import * as model from './mobilenet/model';
 
 const rankingRecordsKey = 'RANKING_RECORDS_KEY';
 

@@ -1,7 +1,7 @@
 // pages/basic/coco-ssd/index.ts
 const app = getApp<IAppOption>();
 
-import * as model from '../../../models/coco-ssd/model';
+import * as model from './coco-ssd/model';
 
 const CANVAS_ID = 'canvas'
 

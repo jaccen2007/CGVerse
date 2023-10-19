@@ -1,7 +1,7 @@
 // pages/game/nft/index.ts
 const app = getApp<IAppOption>();
 
-import { Controller as ARController } from '../../../models/nft';
+import { Controller as ARController } from './nft';
 
 import * as THREE from 'three-platformize';
 import { WechatPlatform } from 'three-platformize/src/WechatPlatform';

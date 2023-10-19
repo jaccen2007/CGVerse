@@ -1,7 +1,7 @@
 // pages/basic/mobilenet/index.ts
 const app = getApp<IAppOption>();
 
-import * as model from '../../../models/mobilenet/model';
+import * as model from './mobilenet/model';
 
 Page({
 

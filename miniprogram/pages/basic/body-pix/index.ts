@@ -1,7 +1,7 @@
 // pages/basic/body-pix/index.ts
 const app = getApp<IAppOption>();
 
-import * as model from '../../../models/body-pix/model';
+import * as model from './body-pix/model';
 
 const CANVAS_ID = 'canvas';
 

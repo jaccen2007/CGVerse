@@ -21,7 +21,7 @@ Page({
       {
         title: '数字人',
         img: 'https://ai.flypot.cn/mp/ai-pocket/images/index-teach-bg.jpg',
-        url: '/pages/render/teachable-machine/index'
+        url: '/dazhen/dazhen/index'
       }
     ]
   },

@@ -1,5 +1,5 @@
 // pages/game/chat-gpt/index.ts
-import { generateUUID } from '../../../utils/util';
+import { generateUUID } from './utils/util';
 
 const app = getApp<IAppOption>();
 

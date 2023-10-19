@@ -2,23 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/render/index",
-    "pages/render/teachable-machine/index",
-    "pages/basic/home/index",
-    "pages/basic/posenet/index",
-    "pages/basic/body-pix/index",
-    "pages/basic/coco-ssd/index",
-    "pages/basic/handpose/index",
-    "pages/basic/face/index",
-    "pages/game/home/index",
-    "pages/game/lipstick/index",
-    "pages/game/nft/index",
-    "pages/game/phone-ranking/index",
-    "pages/game/teachable-machine/index",
-    "pages/game/chat-gpt/index",
-    "pages/about/home/index",
-    "pages/basic/mobilenet/index",
-    "pages/about/story/index",
-    "pages/about/log/index"
+    "pages/home/game-home/index",
+    "pages/home/basic-home/index",
+    "pages/home/about-home/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -40,19 +26,19 @@
         "selectedIconPath": "images/home-on.png"
       },
       {
-        "pagePath": "pages/basic/home/index",
+        "pagePath": "pages/home/basic-home/index",
         "text": "基础",
         "iconPath": "images/basic.png",
         "selectedIconPath": "images/basic-on.png"
       },
       {
-        "pagePath": "pages/game/home/index",
+        "pagePath": "pages/home/game-home/index",
         "text": "趣味",
         "iconPath": "images/game.png",
         "selectedIconPath": "images/game-on.png"
       },
       {
-        "pagePath": "pages/about/home/index",
+        "pagePath": "pages/home/about-home/index",
         "text": "关于",
         "iconPath": "images/about.png",
         "selectedIconPath": "images/about-on.png"
@@ -61,5 +47,59 @@
   },
   "plugins": {},
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "subpackages": [
+    {
+      "root": "pages/game",
+      "pages": [
+        "lipstick/index",
+        "nft/index",
+        "phone-ranking/index",
+        "teachable-machine/index",
+        "chat-gpt/index"
+      ]
+    },
+    {
+      "root": "pages/basic",
+      "pages": [
+        "posenet/index",
+        "body-pix/index",
+        "coco-ssd/index",
+        "handpose/index",
+        "face/index",
+        "mobilenet/index"
+      ]
+    },
+    {
+      "root": "dazhen/wasm",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "dazhen/dazhen",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "pages/about",
+      "pages": [
+        "story/index",
+        "log/index"
+      ]
+    },
+    {
+      "root": "dazhen/CTEngine-js",
+      "pages": [
+        "index"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "packages": ["pages/game", "dazhen/dazhen", "pages/basic"]
+    }
+  },
+  "lazyCodeLoading": "requiredComponents"
 }

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Demo of running tensorflow.js in wechat miniprogram",
   "scripts": {
-    "clean": "rimraf miniprogram/chunks miniprogram/**/*.js",
+    "clean": "rimraf miniprogram/chunks miniprogram/!(dazhen)/**/*.js",
     "make:profile": "node ./profile.js",
     "make:custom": "node ./node_modules/@tensorflow/tfjs/dist/tools/custom_module/cli.js --config tfjs_config.json",
     "dev": "npm run clean && rollup -c --watch",

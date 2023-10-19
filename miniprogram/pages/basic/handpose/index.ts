@@ -1,7 +1,7 @@
 // pages/basic/handpose/index.ts
 const app = getApp<IAppOption>();
 
-import * as model from '../../../models/handpose/model';
+import * as model from './handpose/model';
 
 const CANVAS_ID = 'canvas';
 

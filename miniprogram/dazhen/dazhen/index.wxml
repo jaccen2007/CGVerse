@@ -1,0 +1,45 @@
+<view>
+<!-- <canvas type="webgl" id="myCanvas"></canvas> -->
+ </view>
+ <view id="container">
+    <canvas type="webgl2" id="myCanvas" style="border: 1px solid; width: 300px; height: 450px;"></canvas>
+    <view class="action-bar">
+        <button id="loadJson" class="button button1" bindtap="loadJson">加载配置文件json</button>
+        <view class="audio button">
+            <input class="weui-input" bindinput='getInputValue' confirm-type="send" placeholder="请输入文字" />
+            <button bindtap="sendText">发送</button>
+        </view>
+        <view>
+          <picker id="action" bindchange="bindAction" value="{{actionArray[actionIndex]}}" range="{{actionArray}}">
+            <view class="picker">
+              当前动作：{{actionArray[actionIndex]}}
+            </view>
+          </picker>
+          <button id="changeAction" bindtap="changeAction">更换动作</button>
+        </view>
+        <view>
+          <picker id="model" bindchange="bindModel" value="{{modelArray[modelIndex]}}" range="{{modelArray}}">
+            <view class="picker">
+              当前模型：{{modelArray[modelIndex]}}
+            </view>
+          </picker>
+          <button id="changeModel" class="button" bindtap="changeModel">更换模型</button>
+        </view>
+        <view>
+          <picker id="background" bindchange="bindBackground" value="{{backArray[backIndex]}}" range="{{backArray}}">
+            <view class="picker">
+              当前背景：{{backArray[backIndex]}}
+            </view>
+          </picker>
+          <button id="changeBackground" class="button" bindtap="changeBackground">更换背景</button>
+        </view>
+        <view>
+          <picker id="voice" bindchange="bindVoice" value="{{voiceArray[voiceIndex]}}" range="{{voiceArray}}">
+            <view class="picker">
+              当前音色：{{voiceArray[voiceIndex]}}
+            </view>
+          </picker>
+          <button id="changeVoice" class="button" bindtap="changeVoice">更换音色</button>
+        </view>
+    </view>
+</view>

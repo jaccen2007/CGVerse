@@ -1,7 +1,7 @@
 // pages/basic/posenet/index.ts
 const app = getApp<IAppOption>();
 
-import * as model from '../../../models/face/model';
+import * as model from './face/model';
 
 const CANVAS_ID = 'canvas'
 
